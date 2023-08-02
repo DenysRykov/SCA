@@ -147,7 +147,7 @@ p + p {
 
 /* Image Section */
 .imgwrapper {
-  background-image: url(./main/img/Background.jpg);
+  background-image: url(../main/img/Background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 45% center;
