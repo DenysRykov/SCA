@@ -1,1 +1,17 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    window.onload = function() {
+      var currentPath = window.location.pathname;
+      if (currentPath.endsWith('/index.html')) {
+        var newPath = currentPath.substring(0, currentPath.lastIndexOf('/')) + '/';
+        window.location.replace(newPath);
+      }
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>
